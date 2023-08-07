@@ -27,3 +27,17 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_04_060517) do
   end
 
 end
+
+
+employee = Employee.new(
+  first_name:"vikash",
+ middle_name:"kumar",
+ last_name:"patel", 
+ personal_email:"vikash@gmail.com", 
+ city:"jaunpur", 
+ state:"uttar pradesh", 
+ country:"india", 
+ pincode:"436342", 
+ address_line_1:"badshapur", 
+ address_line_2:"nagar nigam"
+)
