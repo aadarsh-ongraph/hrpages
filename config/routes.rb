@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   # get 'pages/terms_and_conditions'
   get 'terms_and_conditions' => 'pages#terms_and_conditions'
 
+  resources :employees
   #get '/home/index'
   root 'home#index'
 
